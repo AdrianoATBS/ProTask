@@ -1,0 +1,79 @@
+
+
+Regras de Negócios - Projeto
+
+1. Criação de Projeto:
+   - Para criar um projeto, o líder ou administrador deve fornecer os seguintes dados obrigatórios:
+   - Nome
+   - Descrição
+   - Categoria
+   - O nome do projeto **não precisa ser único**; múltiplos projetos podem ter o mesmo nome.
+   - O status do projeto pode ser alterado a qualquer momento por um líder ou administrador.
+   - Ao criar um projeto, o líder ou **administrador gera um hash de convite exclusivo para o projeto. Esse hash é necessário para que outros usuários possam ingressar no projeto.
+
+2. Responsáveis pelo Projeto:
+   - O líder ou administrador do projeto pode adicionar ou remover usuários como responsáveis por um projeto.
+   - O líder ou administrador pode vincular tarefas a um usuário quando cria uma tarefa ou pode adicionar o responsável depois.
+
+3. Tarefas no Projeto:
+   - Um projeto pode ter múltiplas tarefas associadas a ele, e cada tarefa pertence a apenas um projeto.
+
+4. Convite de Usuários para o Projeto:
+   - Para que um usuário ingresse no projeto, ele deve receber o link com o hash de convite gerado pelo líder ou administrador.
+   - O usuário só pode acessar o projeto após inserir o hash de convite válido.
+   - O líder ou administrador pode revogar ou gerar um novo hash de convite a qualquer momento.
+
+---
+
+Regras de Negócios - Tarefa
+
+1. Criação de Tarefa:
+   - Para criar uma tarefa, é necessário fornecer os seguintes dados obrigatórios:
+   - Nome
+   - Descrição
+   - Prazo
+   - A prioridade da tarefa não é obrigatória no momento da criação e pode ser alterada posteriormente pelo líder ou administrador.
+   - Apenas o líder ou administrador pode apagar ou excluir uma tarefa.
+
+2. Alteração de Tarefa:
+   - Líder ou administrador pode alterar o status da tarefa (de "pendente" para "em progresso" ou "concluída").
+   - Apenas o líder ou administrador pode alterar o status de uma tarefa.
+   - Se a tarefa for marcada como "concluída" pelo usuário, o líder ou administrador será notificado.
+   - O líder ou administrador pode revisar a tarefa e, se estiver correta, validá-la como concluída.
+   - Se houver algum erro, o líder ou administrador pode retornar a tarefa para o responsável, com uma descrição do erro, para que a tarefa seja corrigida.
+
+---
+
+Regras de Negócios - Usuário
+
+1. Cadastro e Participação em Projetos:
+   - Um usuário precisa fornecer as seguintes informações para se cadastrar:
+   - Nome
+   - E-mail
+   - Senha
+   - O usuário só pode ser adicionado a um projeto se for convidado pelo líder ou administrador do projeto.
+   - O líder ou administrador do projeto tem permissão para remover qualquer usuário de um projeto.
+
+2. Papéis de Usuário:
+   - O usuário pode ter um dos seguintes papéis dentro de um projeto:
+   - Líder (responsável pela gestão do projeto)
+   - Administrador (permite a administração e gestão de tarefas e usuários)
+   - Membro (usuário comum, responsável por tarefas)
+   - Líder e Administrador podem:
+   - Convidar, adicionar ou remover usuários.
+   - Alterar e excluir tarefas.
+   - Alterar o status das tarefas.
+   - Membro (usuário comum) pode:
+   - Alterar o status da tarefa para "concluída", mas não pode alterar outros campos ou tarefas.
+
+3. **Responsabilidade e Tarefas:**
+   - O usuário pode ser responsável por várias tarefas ao mesmo tempo e pode estar envolvido em tarefas de diferentes projetos.
+   - Se um usuário for removido de um projeto, o líder ou administrador do projeto reatribui as tarefas do usuário a outro responsável.
+
+---
+
+Regras de Negócios Adicionais
+
+- O status do projeto e da tarefa pode ser alterado pelo líder ou administrador, mas o usuário comum não pode alterar o status de um projeto ou de uma tarefa além de marcar como "concluída".
+- O líder tem total controle sobre a gestão do projeto e tarefas, enquanto os administradores podem fazer quase tudo, exceto criar projetos ou definir o líder.
+
