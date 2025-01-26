@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QO2xvifbve1KmCsqY6XXGPiiYx3MnNRsyXO2I23weSU=",
+  "Source": "ProTask.WebApi",
+  "BasePath": "_content/ProTask.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

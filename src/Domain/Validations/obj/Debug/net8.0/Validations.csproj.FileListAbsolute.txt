@@ -1,0 +1,12 @@
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.sourcelink.json
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\bin\Debug\net8.0\Validations.deps.json
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\bin\Debug\net8.0\Validations.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\bin\Debug\net8.0\Validations.pdb
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\refint\Validations.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\Validations.pdb
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Validations\obj\Debug\net8.0\ref\Validations.dll

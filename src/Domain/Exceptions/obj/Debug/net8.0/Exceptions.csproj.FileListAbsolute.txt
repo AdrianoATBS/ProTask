@@ -1,0 +1,12 @@
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.sourcelink.json
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\bin\Debug\net8.0\Exceptions.deps.json
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\bin\Debug\net8.0\Exceptions.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\bin\Debug\net8.0\Exceptions.pdb
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\refint\Exceptions.dll
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\Exceptions.pdb
+C:\Users\Pichau\Desktop\ProTask\src\Domain\Exceptions\obj\Debug\net8.0\ref\Exceptions.dll
