@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ProTask.WebApi")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Domainn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3c2e40ed4c1032f798020703043ca390774647")]
-[assembly: System.Reflection.AssemblyProductAttribute("ProTask.WebApi")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ProTask.WebApi")]
+[assembly: System.Reflection.AssemblyProductAttribute("Domainn")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Domainn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
