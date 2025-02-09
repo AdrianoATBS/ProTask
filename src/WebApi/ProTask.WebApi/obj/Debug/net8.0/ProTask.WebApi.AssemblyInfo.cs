@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProTask.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3c2e40ed4c1032f798020703043ca390774647")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ad3b074f19d732d1bafc1ab663e31ef3f5bfd06")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProTask.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProTask.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
