@@ -1,12 +1,13 @@
 using Core.Exceptions;
 using Core.Validations;
 using Core.Validations.Validators;
+using Domain.Interfaces.Validation;
 
 namespace Domain.Entities;
 
 public class Projeto
 {
-
+    public Guid Id { get; private set; } = Guid.NewGuid();
     public Guid HashDeConvite { get; private set; }
     public string Nome { get; set; }
     public string Descricao { get; set; }
@@ -15,7 +16,7 @@ public class Projeto
     public string Status { get; set; }
     public string Prioridade { get; set; }
     public string Categoria { get; set; }
-
+    IValidator<Projeto> validator;
     
     public Projeto(string nome, string descricao, DateTime dadosDaCriacao, DateTime dataDeTermino, string status, string prioridade, string categoria)
     {

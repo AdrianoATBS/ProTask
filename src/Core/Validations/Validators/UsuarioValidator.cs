@@ -14,10 +14,10 @@ public class UsuarioValidator
     }
 
     // //Validação específica para o status de aceitação do usuário
-    // public static ValidationResult ValidarStatusAceitacao(bool statusDeAceitacao)
-    // {
-    //     return statusDeAceitacao == true || statusDeAceitacao == false
-    //         ? new ValidationResult(true)
-    //         : new ValidationResult(false, "Status de aceitação inválido");
-    // }
+    public static ValidationResult ValidarStatusAceitacao(bool statusDeAceitacao)
+    {
+        return statusDeAceitacao == true || statusDeAceitacao == false
+            ? new ValidationResult(true)
+           : new ValidationResult(false, "Status de aceitação inválido");
+    }
 }

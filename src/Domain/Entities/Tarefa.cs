@@ -6,7 +6,8 @@ namespace Domain.Entities;
 
 public class Tarefa
 {
-
+    public Guid Id { get; private set; } = Guid.NewGuid();
+    public Guid ProjetoId { get; set; }
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public string Status { get; set; }

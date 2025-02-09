@@ -28,13 +28,14 @@ public class Validacao
             : new ValidationResult(false, mensagemErro);
     }
     // // Validação do status de aceitação
-    // public static ValidationResult ValidarStatusAceitacao(bool statusDeAceitacao)
-    // {
-    //     return statusDeAceitacao == true || statusDeAceitacao == false
-    //         ? new ValidationResult(true)
-    //         : new ValidationResult(false, "Status de aceitação inválido");
-    // }
-    // Validação da data de criação
+    public static ValidationResult ValidarStatusAceitacao(bool statusDeAceitacao)
+    {
+        return statusDeAceitacao == true || statusDeAceitacao == false
+            ? new ValidationResult(true)
+            : new ValidationResult(false, "Status de aceitação inválido");
+    }
+    
+    //Validação da data de criação
     public static ValidationResult ValidarDataCriacao(DateTime dataDeCriacao)
     {
         return dataDeCriacao <= DateTime.UtcNow
