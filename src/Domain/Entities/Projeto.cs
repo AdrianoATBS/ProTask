@@ -13,13 +13,14 @@ public class Projeto
     public string Descricao { get; set; }
     public DateTime DadosDaCriacao{ get; set; }
     public DateTime DataDeTermino{ get; set; }
-    public string Status { get; set; }
+    public string Status { get;  set; }
     public string Prioridade { get; set; }
     public string Categoria { get; set; }
     IValidator<Projeto> validator;
-    
+
     public Projeto(string nome, string descricao, DateTime dadosDaCriacao, DateTime dataDeTermino, string status, string prioridade, string categoria)
     {
+    
         // Validação do nome
         var resultadoNome = Validacao.ValidarNome(nome);
         if (!resultadoNome.IsValid)

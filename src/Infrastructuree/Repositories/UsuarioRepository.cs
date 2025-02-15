@@ -72,4 +72,9 @@ public class UsuarioRepository : IUsuarioRepository
     {
         return _usuarios.Where(u => u.Cargo.Equals(cargo, StringComparison.OrdinalIgnoreCase));
     }
+
+    public async Task<Usuario> ObterPorIdAsync(Guid id)
+    {
+        return await Task.FromResult(_usuarios.FirstOrDefault(u => u.Hash == id));
+    }
 }

@@ -65,4 +65,9 @@ public class ProjetoRepository : IProjetoRepository
     {
         return _projetos.Where(p => p.Prioridade.Equals(prioridade, StringComparison.OrdinalIgnoreCase));
     }
+
+    public Task<IEnumerable<Projeto>> ListarTodosAsync()
+    {
+        throw new NotImplementedException();
+    }
 }

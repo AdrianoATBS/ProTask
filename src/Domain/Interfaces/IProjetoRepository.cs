@@ -10,6 +10,7 @@ public interface IProjetoRepository
     IEnumerable<Projeto> ListarTodos();
     void Atualizar(Projeto projeto);
     void Remover(Guid id);
+    Task<IEnumerable<Projeto>> ListarTodosAsync();
     IEnumerable<Projeto> ListarPorStatus(string status);
     IEnumerable<Projeto> ListarPorPrioridade(string prioridade);
 

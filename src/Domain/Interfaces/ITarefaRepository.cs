@@ -14,7 +14,7 @@ public interface ITarefaRepository
 
 
     IEnumerable<Tarefa> ListarPorProjeto(Guid projetoId);
-    IEnumerable<Tarefa> ListarTarefasAtrasadas();
+    IEnumerable<Tarefa> ListarTarefaAtrasada();
 
 
     Task AdicionarAsync(Tarefa tarefa);

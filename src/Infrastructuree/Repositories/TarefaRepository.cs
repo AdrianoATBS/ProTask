@@ -14,7 +14,7 @@ public class TarefaRepository : ITarefaRepository
 
     public Tarefa ObterPorId(Guid id)
     {
-        return _tarefas.FirstOrDefault(t => t.Id == id); // Adicione uma propriedade Id na entidade Tarefa
+        return _tarefas.FirstOrDefault(t => t.Id == id); 
     }
 
     public IEnumerable<Tarefa> ListarTodos()
@@ -57,10 +57,10 @@ public class TarefaRepository : ITarefaRepository
 
     public IEnumerable<Tarefa> ListarPorProjeto(Guid projetoId)
     {
-        return _tarefas.Where(t => t.ProjetoId == projetoId); // Adicione uma propriedade ProjetoId na entidade Tarefa
+        return _tarefas.Where(t => t.ProjetoId == projetoId); 
     }
 
-    public IEnumerable<Tarefa> ListarTarefasAtrasadas()
+    public IEnumerable<Tarefa> ListarTarefaAtrasada()
     {
         return _tarefas.Where(t => t.DataDeVencimento < DateTime.Now && t.Status != "Concluído");
     }
